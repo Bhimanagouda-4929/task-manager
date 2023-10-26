@@ -1,0 +1,85 @@
+body{  
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+#taskInput {
+    width: 60%;
+    padding: 5px;
+    margin: 10px 0;
+    font-size: 16px;
+}
+.first{
+    margin-left: 20%;
+    margin-top: 25px;
+    display: flex   ;
+    justify-content: center;
+    background-color: azure;
+    width:60%;
+    border-radius: 2%;
+}
+
+.box{
+    margin: 50px,35px;
+    padding:20px,25px;
+}
+h1{
+    font-size: 2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: #333;
+}
+button{
+    padding: 2px 3px;
+    border-radius: 30%;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #45a049;
+}
+ul{
+    list-style-type: circle;
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 5px 0;
+}
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+button.edit, button.delete {
+    background-color: #ff3333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button.edit {
+    background-color: #0073e6;
+}
+button.edit:hover, button.delete:hover {
+    background-color: #ff0000;
+}
+#copyright{
+    margin-top:20rem;
+    text-align: center;
+    background: rgb(97, 95, 95);
+    padding: 0.7rem 0;
+    font-size: 1.2rem;
+}
+div p {
+text-emphasis-color: white;
+}
